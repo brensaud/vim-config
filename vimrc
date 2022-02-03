@@ -21,7 +21,7 @@ set backspace=indent,eol,start                     " Make backspace behave like 
 
 " set leader key which is by default \
 let mapleader = ","                                " The default leader is \, but a comma is much better.
-
+set number                                         " Let's activate line number
 
 "----------------------------Mappings-------------------------"
 " imap means mapping specially  for insert mode

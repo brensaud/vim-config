@@ -32,12 +32,22 @@ set linespace=15                                   " Macvim-specific line-height
 " URxvt*linespace   15
 
 
+
+
+"----------------------------Search-------------------------"
+set hlsearch
+
+
+
+
+
 "----------------------------Mappings-------------------------"
 " imap means mapping specially  for insert mode
 " nmap means mapping specially for normal mode
 " Make easy to edit vimrc file
 
-nmap ,ev :tabedit $MYVIMRC<cr>
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
+nmap <Leader><space> :nohlsearch<cr>
 
 
 "---------------------Auto-Commands---------------------"

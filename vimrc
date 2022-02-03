@@ -55,6 +55,8 @@ nmap <Leader><space> :nohlsearch<cr>
 " To automatically run commands
 
 " To automatically source the vimrc file on save
+" autocmd! -> means clear out the group so that we can ensure that we are not
+" duplicating anything
 
 augroup autosourcing
     autocmd!

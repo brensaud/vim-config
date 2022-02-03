@@ -23,6 +23,15 @@ set backspace=indent,eol,start                     " Make backspace behave like 
 let mapleader = ","                                " The default leader is \, but a comma is much better.
 set number                                         " Let's activate line number
 
+
+" This is doesn't take effect, there is on caviat here
+" This is exclusive to gui version of vim
+set linespace=15                                   " Macvim-specific line-height.
+
+" For urxvt terminal we can set the linespace of urxvt terminal from .Xresources
+" URxvt*linespace   15
+
+
 "----------------------------Mappings-------------------------"
 " imap means mapping specially  for insert mode
 " nmap means mapping specially for normal mode

@@ -32,11 +32,30 @@ set linespace=15                                   " Macvim-specific line-height
 " URxvt*linespace   15
 
 
+
+
+
 "----------------------------Visuals-------------------------"
 " First download the raw format of atom-dark using wget in .vim folder
 " For gui-vim like mac-vim
 " use atom-dark but for terminal vim use atom-dark-256
 colorscheme atom-dark-256
+
+set t_CO=256                                            " Use 256 colors. This is useful for Terminal vim.
+
+" for gvim for mac-vim specific
+" for terminal vim set in .Xresource in case of urxvt
+" If there is spaces in fontname use _ to designate that
+set guifont=Fira_Code:h16
+
+
+" Remove fat ugly bars
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+
+
 
 
 "----------------------------Search-------------------------"

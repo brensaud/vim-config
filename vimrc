@@ -36,6 +36,7 @@ set linespace=15                                   " Macvim-specific line-height
 
 "----------------------------Search-------------------------"
 set hlsearch
+set incsearch
 
 
 
@@ -54,4 +55,8 @@ nmap <Leader><space> :nohlsearch<cr>
 " To automatically run commands
 
 " To automatically source the vimrc file on save
-autocmd BuffwritePost .vimrc source %
+
+augroup autosourcing
+    autocmd!
+    autocmd BuffwritePost .vimrc source %
+augroup END

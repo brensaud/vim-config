@@ -19,6 +19,9 @@ colorscheme desert
 " we set this to work with indentation, the end of the line and the start of the line
 set backspace=indent,eol,start                     " Make backspace behave like every other editor
 
+" set leader key which is by default \
+let mapleader = ","                                " The default leader is \, but a comma is much better.
+
 
 "----------------------------Mappings-------------------------"
 " imap means mapping specially  for insert mode

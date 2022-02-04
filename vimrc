@@ -1,5 +1,17 @@
+set nocompatible                        " be, improved, require
+
+
+so ~/.vim/plugins.vim
+
+
+
+
+
+
 " enable syntax highlighting
+syntax on
 syntax enable
+filetype plugin indent on
 
 
 " to choose color scheme from command mode

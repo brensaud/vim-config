@@ -1,4 +1,4 @@
-# vim-config
+# vimman
 
 ### Terminal
     To run file directly in terminal :! python test.py 

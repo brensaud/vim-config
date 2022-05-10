@@ -16,3 +16,9 @@
     
 
 ### Vim view management
+    :vsp core/settings.py => vertical split
+    :sp core/settings.py => horizontal split
+    ctrl+l (move to left window)
+    ctrl:h (move to right window)
+    ctrl+k (move to upper window)
+    ctrl+j (move to lower window)

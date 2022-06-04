@@ -13,7 +13,14 @@
     
     In visual line mode(shift + v) use: shift + >  (to indent a block of code)
     
+
+#### Words, sentences, and paragraphs
     
+    To move between sentences used ( => moves to previous sentence and ) => moves to next sentences
+    
+    To move between paragraphs uses { => moves to previous paragraphs and } => moves to next paragraphs
+
+
 
 ### Vim view management
     :vsp core/settings.py => vertical split

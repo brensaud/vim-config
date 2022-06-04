@@ -21,6 +21,14 @@
     To move between paragraphs uses { => moves to previous paragraphs and } => moves to next paragraphs
 
 
+### Regular expressions
+    
+    To search a word =>    /brensaud
+    To search a word tha starts with bre and end with ud => /bre.ud
+    
+    Forward search =>  /
+    Backward search => ?
+
 
 ### Vim view management
     :vsp core/settings.py => vertical split

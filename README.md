@@ -26,8 +26,8 @@
     To search a word =>    /brensaud
     To search a word tha starts with bre and end with ud => /bre.ud
     
-    Forward search =>  /
-    Backward search => ?
+    Forward search from where you are =>  /
+    Backward search from where you are => ?
 
 
 ### Vim view management

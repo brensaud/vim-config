@@ -29,6 +29,10 @@
     Forward search from where you are =>  /
     Backward search from where you are => ?
 
+### To open different file at once in seperae tab
+
+    vim -p 1.txt 2.txt 3.txt
+
 
 ### Vim view management
     :vsp core/settings.py => vertical split
